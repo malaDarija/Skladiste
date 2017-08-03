@@ -14,6 +14,7 @@ namespace Skladiste.App
     {
         public Form1()
         {
+            //njkhjkhjkhjkhk
             InitializeComponent();
         }
     }
