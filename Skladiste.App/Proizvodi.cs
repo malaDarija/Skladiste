@@ -10,11 +10,10 @@ using System.Windows.Forms;
 
 namespace Skladiste.App
 {
-    public partial class Form1 : Form
+    public partial class Proizvodi : Form
     {
-        public Form1()
+        public Proizvodi()
         {
-            //njkhjkhjkhjkhk
             InitializeComponent();
         }
     }
