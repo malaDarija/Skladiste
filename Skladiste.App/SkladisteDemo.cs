@@ -21,6 +21,8 @@ namespace Skladiste.App
         private void proizvodiToolStripMenuItem_Click(object sender, EventArgs e)
         {
             Proizvodi proizvodi = new Proizvodi();
+            proizvodi.MdiParent = this;
+            proizvodi.Show();
         }
 
         private void SkladisteDemo_FormClosing(object sender, FormClosingEventArgs e)

@@ -28,7 +28,7 @@ namespace Skladiste.App
 
         private void prijavaButton_Click(object sender, EventArgs e)
         {
-            //TO DO: dodati provjeru korisničkog imena i lozinke (validaciju korisnika)
+            //TO DO: dodati provjeru korisničkog imena i lozinke (validaciju korisnika) na pritiskanje tipke ENTER
             SqlConnection konekcija = new SqlConnection("Data Source=DESKTOP-0LIGBMA\\SQLEXPRESS;Initial Catalog=Skladiste;Integrated Security=True");
             SqlDataAdapter dataAdapter = new SqlDataAdapter(@"SELECT *
                                          FROM [Skladiste].[dbo].[Prijava] WHERE KorisnickoIme = '" + korisnickoImeTextBox.Text + "' AND Lozinka = '" + lozinkaTextBox.Text + "'", konekcija);
