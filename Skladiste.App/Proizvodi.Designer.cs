@@ -110,6 +110,7 @@
             this.izbrisiButton.TabIndex = 7;
             this.izbrisiButton.Text = "Izbriši";
             this.izbrisiButton.UseVisualStyleBackColor = true;
+            this.izbrisiButton.Click += new System.EventHandler(this.izbrisiButton_Click);
             // 
             // dodajButton
             // 
